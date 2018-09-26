@@ -3,20 +3,23 @@
   padding: 0;
 }
 
-.accounts {
-  background: url("../images/profile-img.png") top left no-repeat;
-}
 
-.apps {
-  background: url("../images/google-apps.png") top left no-repeat;
-}
 
 .apps, .accounts {
-  display: block;
-  height: 30px;
-  width: 30px;
-  background-size: 100%;
+  display: inline;
+  background-size: 50%;
   margin: 0 auto;
+  
+}
+
+.right {
+  display: -moz-inline-box;
+  text-align: right;
+}
+
+.left {
+  display: -moz-inline-box;
+  text-align: left;
 }
 
 .top {
@@ -75,7 +78,7 @@ input[type="text"]:hover {
 .search-button:hover, .lucky-button:hover {
   color: black;
   background-color: rgb(239, 241, 244);
-  border: 1px solid rgb(117, 117, 117);
+  border: 1px solid rgb(155, 153, 153);
 }
 
 a {
@@ -97,4 +100,16 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+footer {
+  background-color: #F2F2F2;
+  border-top: 1px solid #E4E4E4;
+  padding-left: 27px;
+  padding-right: 27px;
+  line-height: 40px;
+  font-family: arial,sans-serif;
+  font-size: 17px;
+  color: #666666;
+  margin-top: 150px;
 }
