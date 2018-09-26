@@ -1,0 +1,100 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+
+.accounts {
+  background: url("../images/profile-img.png") top left no-repeat;
+}
+
+.apps {
+  background: url("../images/google-apps.png") top left no-repeat;
+}
+
+.apps, .accounts {
+  display: block;
+  height: 30px;
+  width: 30px;
+  background-size: 100%;
+  margin: 0 auto;
+}
+
+.top {
+  max-width: 1920px;
+  margin: 0 auto;
+  text-align: right;
+  padding: 18px 29px 200px 0px;
+  word-spacing: 13px;
+}
+
+.search {
+  padding: 30px 0px;
+}
+
+.logo {
+  height: 95px;
+  width: 269px;
+  background: url("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png") top left no-repeat;
+  margin: 0 auto; 
+  background-size: 100%;
+  text-indent: -9999px;
+}
+
+.container {
+  width: 580px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 566px;
+  margin: 0 auto;
+  padding: 11px 0px 13px 0px;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  border: 1px  solid white;
+  box-shadow: 0px 1px 2px #CCCCCC;
+
+}
+
+input[type="text"]:hover {
+  box-shadow: 0px 2px 4px #B8B8B8;
+}
+
+.search-button, .lucky-button {
+  padding: 10px 15px;
+  font-family: arial, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  color: rgb(117, 117, 117);
+  background-color: rgb(242, 242, 242);
+  border-radius: 2px;
+  border: 1px solid white;
+}
+
+.search-button:hover, .lucky-button:hover {
+  color: black;
+  background-color: rgb(239, 241, 244);
+  border: 1px solid rgb(117, 117, 117);
+}
+
+a {
+  color: #3F3F3F;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  display: inline;
+}
+
+ul { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
